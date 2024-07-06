@@ -1,0 +1,19 @@
+{
+  "trash_id": "f9589f704a01e7ff886da3d7a668fef4",
+  "trash_scores": {
+    "default": 2000
+  },
+  "name": "Golden Popcorn",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "GP Flag",
+      "implementation": "IndexerFlagSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 8
+      }
+    }
+  ]
+}

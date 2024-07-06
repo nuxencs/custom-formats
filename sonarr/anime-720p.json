@@ -1,0 +1,19 @@
+{
+  "trash_id": "0801d4fba08a7a3d59f22854a2f532f8",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Anime 720p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "720p",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(720p)\\b"
+      }
+    }
+  ]
+}

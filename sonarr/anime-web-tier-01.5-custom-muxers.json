@@ -1,0 +1,82 @@
+{
+  "trash_id": "4a13fab2f7c5471a9d42685a3132e242",
+  "trash_scores": {
+    "default": 550
+  },
+  "name": "Anime Web Tier 01.5 (Custom Muxers)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "WEB",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 1
+      }
+    },
+    {
+      "name": "GLORY",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[GLORY\\]|-GLORY\\b"
+      }
+    },
+    {
+      "name": "Heavenrend",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Heavenrend)\\b"
+      }
+    },
+    {
+      "name": "Nirvana",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[Nirvana\\]|-Nirvana\\b"
+      }
+    },
+    {
+      "name": "Starsugen",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Starsugen)\\b"
+      }
+    },
+    {
+      "name": "Zoombie",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Zoombie)\\b"
+      }
+    }
+  ]
+}

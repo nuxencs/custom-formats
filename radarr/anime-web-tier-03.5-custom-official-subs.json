@@ -1,0 +1,55 @@
+{
+  "trash_id": "b1507ce4a53bc3cea2e0bfcb9b6e90c9",
+  "trash_scores": {
+    "default": 250
+  },
+  "name": "Anime Web Tier 03.5 (Custom Official Subs)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
+      }
+    },
+    {
+      "name": "COPiUM",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(COPiUM)\\b"
+      }
+    },
+    {
+      "name": "NTb",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(NTb)\\b"
+      }
+    },
+    {
+      "name": "Tsundere-Raws",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Tsundere-Raws)\\b"
+      }
+    }
+  ]
+}
