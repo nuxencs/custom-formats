@@ -1,0 +1,46 @@
+{
+  "trash_id": "c2f4ff510c8c0449670e0ee0422c7188",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Not Preferred Remux",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Remux",
+      "implementation": "QualityModifierSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "Not FraMeSToR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "^(FraMeSToR)$"
+      }
+    },
+    {
+      "name": "Not FLUX",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "^(FLUX)$"
+      }
+    },
+    {
+      "name": "Not 3L",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "^(3L)$"
+      }
+    }
+  ]
+}

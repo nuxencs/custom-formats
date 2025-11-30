@@ -1,0 +1,28 @@
+{
+  "trash_id": "c76a4adc509e68d79f4204e79e2e5b07",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Not Preferred Remux",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Remux",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "Not FraMeSToR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": "^(FraMeSToR)$"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "trash_id": "5e2f521a1d6b2d5a9f454eb8dffdc7bf",
+  "trash_scores": {
+    "default": 5
+  },
+  "name": "Anime Web Boost (SubsPlease)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
+      }
+    },
+    {
+      "name": "SubsPlease",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(SubsPlease)\\b"
+      }
+    }
+  ]
+}

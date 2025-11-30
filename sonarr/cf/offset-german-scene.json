@@ -1,0 +1,46 @@
+{
+  "trash_id": "7be068488c193abe5853b83e642f2cbb",
+  "trash_scores": {
+    "default": 10010
+  },
+  "name": "Offset German Scene",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "AR0NA",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(AR0NA)$"
+      }
+    },
+    {
+      "name": "HAXE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HAXE)$"
+      }
+    }
+  ]
+}

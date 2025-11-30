@@ -32,7 +32,15 @@
       "fields": {
         "value": "\\b(Animorphs)\\b"
       }
+    },
+    {
+      "name": "Shadow Garden",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[Shadow Garden\\]|-Shadow Garden\\b"
+      }
     }
   ]
 }
-
