@@ -1,0 +1,37 @@
+{
+  "trash_id": "ef0288587754265992d9fd7ed67070a3",
+  "trash_scores": {
+    "default": 100
+  },
+  "name": "ZoroSenpai (WEBRIP)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
+      }
+    },
+    {
+      "name": "1080p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1080
+      }
+    },
+    {
+      "name": "ZoroSenpai",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ZoroSenpai)$"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "trash_id": "7b0828be9af60eda1bac5569f2ebaf39",
+  "trash_scores": {
+    "default": 101
+  },
+  "name": "FraMeSToR",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "FraMeSToR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "^(FraMeSToR)$"
+      }
+    }
+  ]
+}
