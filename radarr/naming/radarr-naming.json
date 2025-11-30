@@ -1,0 +1,5 @@
+{
+  "file": {
+    "anime": "{Movie CleanTitle} {(Release Year)} {imdb-{ImdbId}} {edition-{Edition Tags}} {[Custom Formats]}{[Quality Full]}{[MediaInfo 3D]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{MediaInfo AudioLanguages}[{MediaInfo VideoBitDepth}bit]{[Mediainfo VideoCodec]}{-Release Group}"
+  }
+}
