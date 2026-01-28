@@ -1,63 +1,54 @@
 {
-  "trash_id": "593be8946f3e91595d74bf778f38724b",
+  "trash_id": "634346512045c09df485b59803ccd631",
   "trash_scores": {
-    "default": 1250
+    "default": 250
   },
-  "name": "Anime BD Tier 02.5 (Custom SeaDex Muxers)",
+  "name": "Anime Web Tier 03 (Additions)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Bluray",
+      "name": "WEBDL",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 6
+        "value": 3
       }
     },
     {
-      "name": "Bluray Remux",
+      "name": "WEBRIP",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 7
+        "value": 4
       }
     },
     {
-      "name": "DVD",
+      "name": "WEB",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 5
+        "value": 1
       }
     },
     {
-      "name": "koala",
+      "name": "COPiUM",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[koala\\]|-koala\\b"
+        "value": "\\b(COPiUM)\\b"
       }
     },
     {
-      "name": "Seicher",
+      "name": "NTb",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Seicher(?!-Raws))\\b"
-      }
-    },
-    {
-      "name": "Some-Stuffs",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(Some-Stuffs)\\b"
+        "value": "\\b(NTb)\\b"
       }
     }
   ]
