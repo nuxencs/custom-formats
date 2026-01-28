@@ -1,45 +1,45 @@
 {
-  "trash_id": "69b35ee3bbfc4eb9d1faa568caf79491",
+  "trash_id": "b1507ce4a53bc3cea2e0bfcb9b6e90c9",
   "trash_scores": {
-    "default": 850
+    "default": 250
   },
-  "name": "Anime BD Tier 06.5 (Custom FanSubs)",
+  "name": "Anime Web Tier 03 (Additions)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Bluray",
+      "name": "WEBDL",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 9
+        "value": 7
       }
     },
     {
-      "name": "DVD",
+      "name": "WEBRIP",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 5
+        "value": 8
       }
     },
     {
-      "name": "Animorphs",
+      "name": "COPiUM",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Animorphs)\\b"
+        "value": "\\b(COPiUM)\\b"
       }
     },
     {
-      "name": "Shadow Garden",
+      "name": "NTb",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[Shadow Garden\\]|-Shadow Garden\\b"
+        "value": "\\b(NTb)\\b"
       }
     }
   ]

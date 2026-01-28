@@ -1,45 +1,36 @@
 {
-  "trash_id": "2639db7b73b2ecbffb2ca58460738e1f",
+  "trash_id": "69b35ee3bbfc4eb9d1faa568caf79491",
   "trash_scores": {
-    "default": 6
+    "default": 850
   },
-  "name": "Anime Web Boost (SubsPlus)",
+  "name": "Anime BD Tier 06 (Additions)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "WEBDL",
+      "name": "Bluray",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 3
+        "value": 9
       }
     },
     {
-      "name": "WEBRIP",
+      "name": "DVD",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 4
+        "value": 5
       }
     },
     {
-      "name": "WEB",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 1
-      }
-    },
-    {
-      "name": "SubsPlus",
+      "name": "Shadow Garden",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(SubsPlus\\+?)\\b"
+        "value": "\\[Shadow Garden\\]|-Shadow Garden\\b"
       }
     }
   ]

@@ -1,13 +1,22 @@
 {
-  "trash_id": "b1507ce4a53bc3cea2e0bfcb9b6e90c9",
+  "trash_id": "593be8946f3e91595d74bf778f38724b",
   "trash_scores": {
-    "default": 150
+    "default": 1250
   },
-  "name": "Anime Web Tier 03.5 (Custom Official Subs)",
+  "name": "Anime BD Tier 02 (Additions)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "WEBDL",
+      "name": "Bluray",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 6
+      }
+    },
+    {
+      "name": "Bluray Remux",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
@@ -16,39 +25,30 @@
       }
     },
     {
-      "name": "WEBRIP",
+      "name": "DVD",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": 8
+        "value": 5
       }
     },
     {
-      "name": "COPiUM",
+      "name": "Seicher",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(COPiUM)\\b"
+        "value": "\\b(Seicher(?!-Raws))\\b"
       }
     },
     {
-      "name": "NTb",
+      "name": "Some-Stuffs",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(NTb)\\b"
-      }
-    },
-    {
-      "name": "Tsundere-Raws",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(Tsundere-Raws)\\b"
+        "value": "\\b(Some-Stuffs)\\b"
       }
     }
   ]

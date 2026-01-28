@@ -1,9 +1,9 @@
 {
-  "trash_id": "cdf6e92d61f1e48af4e675943081f0e7",
+  "trash_id": "5e8e7dbeb0ef9ab4388250713a646a46",
   "trash_scores": {
-    "default": 1250
+    "default": 850
   },
-  "name": "Anime BD Tier 02.5 (Custom SeaDex Muxers)",
+  "name": "Anime BD Tier 06 (Additions)",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
@@ -12,7 +12,16 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": 9
+        "value": 6
+      }
+    },
+    {
+      "name": "Bluray Remux",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
       }
     },
     {
@@ -25,30 +34,12 @@
       }
     },
     {
-      "name": "koala",
+      "name": "Shadow Garden",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[koala\\]|-koala\\b"
-      }
-    },
-    {
-      "name": "Seicher",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(Seicher(?!-Raws))\\b"
-      }
-    },
-    {
-      "name": "Some-Stuffs",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(Some-Stuffs)\\b"
+        "value": "\\[Shadow Garden\\]|-Shadow Garden\\b"
       }
     }
   ]
