@@ -43,6 +43,15 @@
       }
     },
     {
+      "name": "ToonsHub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(ToonsHub)\\b"
+      }
+    },
+    {
       "name": "ZigZag",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
