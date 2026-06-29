@@ -1,0 +1,37 @@
+{
+  "trash_id": "94d8819f3e810c135801974795de144c",
+  "trash_scores": {
+    "default": 1600
+  },
+  "name": "WEB Tier 03 (Additions)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "KyoGo",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(KyoGo)$"
+      }
+    },
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 8
+      }
+    }
+  ]
+}
