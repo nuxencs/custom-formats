@@ -7,6 +7,15 @@
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
+      "name": "Draken02",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Draken02)$"
+      }
+    },
+    {
       "name": "KyoGo",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
