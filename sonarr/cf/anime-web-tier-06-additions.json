@@ -174,7 +174,7 @@
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(whomst)\\b"
+        "value": "\\b(whomst(?!-mini))\\b"
       }
     },
     {
